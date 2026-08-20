@@ -1,113 +1,122 @@
-{
-  "name": "Vega Custom Providers Repo",
-  "author": "Aftab",
-  "version": "1.0.0",
-  "description": "Custom Provider Extensions for Vega App",
-  "providers": [
-    {
-      "name": "OlaMovies",
-      "id": "com.olamovies",
-      "baseUrl": "https://v4.olamovies.mov/",
-      "script": "providers/provider.js",
-      "status": "active"
-    },
-    {
-      "name": "XDMovies",
-      "id": "com.xdmovies",
-      "baseUrl": "https://top.xdmovies.wtf/",
-      "script": "providers/provider.js",
-      "status": "active"
-    },
-    {
-      "name": "4K HDHub",
-      "id": "com.4khdhub",
-      "baseUrl": "https://4khdhub.one/",
-      "script": "providers/provider.js",
-      "status": "active"
-    },
-    {
-      "name": "HDHub4U",
-      "id": "com.hdhub4u",
-      "baseUrl": "https://new1.hdhub4u.af/",
-      "script": "providers/provider.js",
-      "status": "active"
-    },
-    {
-      "name": "AllMoviesHub",
-      "id": "com.allmovieshub",
-      "baseUrl": "https://allmovieshub.nyc/",
-      "script": "providers/provider.js",
-      "status": "active"
-    },
-    {
-      "name": "UHDMovies",
-      "id": "com.uhdmovies",
-      "baseUrl": "https://uhdmovies.autos/",
-      "script": "providers/provider.js",
-      "status": "active"
-    },
-    {
-      "name": "MoviesMod",
-      "id": "com.moviesmod",
-      "baseUrl": "https://moviesmod.zone/",
-      "script": "providers/provider.js",
-      "status": "active"
-    },
-    {
-      "name": "Movies4U",
-      "id": "com.movies4u",
-      "baseUrl": "https://movies4u.ax/",
-      "script": "providers/provider.js",
-      "status": "active"
-    },
-    {
-      "name": "VegaMovies",
-      "id": "com.vegamovies",
-      "baseUrl": "https://new2.vegamovies.futbol/",
-      "script": "providers/provider.js",
-      "status": "active"
-    },
-    {
-      "name": "VegaMed",
-      "id": "com.vegamed",
-      "baseUrl": "https://vega-med.com/",
-      "script": "providers/provider.js",
-      "status": "active"
-    },
-    {
-      "name": "EonMovies",
-      "id": "com.eonmovies",
-      "baseUrl": "https://new4.eonmovies.click/",
-      "script": "providers/provider.js",
-      "status": "active"
-    },
-    {
-      "name": "MoviesDrive",
-      "id": "com.moviesdrive",
-      "baseUrl": "https://new2.moviesdrive.christmas/",
-      "script": "providers/provider.js",
-      "status": "active"
-    },
-    {
-      "name": "KMMovies",
-      "id": "com.kmmovies",
-      "baseUrl": "https://kmmovies.pics/",
-      "script": "providers/provider.js",
-      "status": "active"
-    },
-    {
-      "name": "KatMovieHD",
-      "id": "com.katmoviehd",
-      "baseUrl": "https://new.katmoviehd.top/",
-      "script": "providers/provider.js",
-      "status": "active"
-    },
-    {
-      "name": "GokuHD",
-      "id": "com.gokuhd",
-      "baseUrl": "https://gokuhd.com/",
-      "script": "providers/provider.js",
-      "status": "active"
-    }
-  ]
-}
+[
+  {
+    "id": "olamovies",
+    "name": "OlaMovies",
+    "version": "1.0.0",
+    "baseUrl": "https://v4.olamovies.mov/",
+    "script": "providers/provider.js",
+    "type": "movie"
+  },
+  {
+    "id": "xdmovies",
+    "name": "XDMovies",
+    "version": "1.0.0",
+    "baseUrl": "https://top.xdmovies.wtf/",
+    "script": "providers/provider.js",
+    "type": "movie"
+  },
+  {
+    "id": "hdhub4u",
+    "name": "HDHub4U",
+    "version": "1.0.0",
+    "baseUrl": "https://new1.hdhub4u.af/",
+    "script": "providers/provider.js",
+    "type": "movie"
+  },
+  {
+    "id": "vegamovies",
+    "name": "VegaMovies",
+    "version": "1.0.0",
+    "baseUrl": "https://new2.vegamovies.futbol/",
+    "script": "providers/provider.js",
+    "type": "movie"
+  },
+  {
+    "id": "katmoviehd",
+    "name": "KatMovieHD",
+    "version": "1.0.0",
+    "baseUrl": "https://new.katmoviehd.top/",
+    "script": "providers/provider.js",
+    "type": "movie"
+  },
+  {
+    "id": "4khdhub",
+    "name": "4K HDHub",
+    "version": "1.0.0",
+    "baseUrl": "https://4khdhub.one/",
+    "script": "providers/provider.js",
+    "type": "movie"
+  },
+  {
+    "id": "allmovieshub",
+    "name": "AllMoviesHub",
+    "version": "1.0.0",
+    "baseUrl": "https://allmovieshub.nyc/",
+    "script": "providers/provider.js",
+    "type": "movie"
+  },
+  {
+    "id": "uhdmovies",
+    "name": "UHDMovies",
+    "version": "1.0.0",
+    "baseUrl": "https://uhdmovies.autos/",
+    "script": "providers/provider.js",
+    "type": "movie"
+  },
+  {
+    "id": "moviesmod",
+    "name": "MoviesMod",
+    "version": "1.0.0",
+    "baseUrl": "https://moviesmod.zone/",
+    "script": "providers/provider.js",
+    "type": "movie"
+  },
+  {
+    "id": "movies4u",
+    "name": "Movies4U",
+    "version": "1.0.0",
+    "baseUrl": "https://movies4u.ax/",
+    "script": "providers/provider.js",
+    "type": "movie"
+  },
+  {
+    "id": "vegamed",
+    "name": "VegaMed",
+    "version": "1.0.0",
+    "baseUrl": "https://vega-med.com/",
+    "script": "providers/provider.js",
+    "type": "movie"
+  },
+  {
+    "id": "eonmovies",
+    "name": "EonMovies",
+    "version": "1.0.0",
+    "baseUrl": "https://new4.eonmovies.click/",
+    "script": "providers/provider.js",
+    "type": "movie"
+  },
+  {
+    "id": "moviesdrive",
+    "name": "MoviesDrive",
+    "version": "1.0.0",
+    "baseUrl": "https://new2.moviesdrive.christmas/",
+    "script": "providers/provider.js",
+    "type": "movie"
+  },
+  {
+    "id": "kmmovies",
+    "name": "KMMovies",
+    "version": "1.0.0",
+    "baseUrl": "https://kmmovies.pics/",
+    "script": "providers/provider.js",
+    "type": "movie"
+  },
+  {
+    "id": "gokuhd",
+    "name": "GokuHD",
+    "version": "1.0.0",
+    "baseUrl": "https://gokuhd.com/",
+    "script": "providers/provider.js",
+    "type": "movie"
+  }
+]
