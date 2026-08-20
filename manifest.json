@@ -1,30 +1,13 @@
 [
   {
-    "display_name": "OlaMovies",
-    "value": "olamovies",
+    "display_name": "VegaMovies",
+    "value": "vegamovies",
     "version": "1.0",
     "icon": "",
     "type": "global",
     "hasSettings": false,
-    "disabled": false
-  },
-  {
-    "display_name": "XDMovies",
-    "value": "xdmovies",
-    "version": "1.0",
-    "icon": "",
-    "type": "global",
-    "hasSettings": false,
-    "disabled": false
-  },
-  {
-    "display_name": "4K HDHub",
-    "value": "4khdhub",
-    "version": "1.0",
-    "icon": "",
-    "type": "global",
-    "hasSettings": false,
-    "disabled": false
+    "disabled": false,
+    "script": "https://raw.githubusercontent.com/Arthurrrr-source/vega-providers/main/providers/vegamovies.js"
   },
   {
     "display_name": "HDHub4U",
@@ -33,105 +16,7 @@
     "icon": "",
     "type": "global",
     "hasSettings": false,
-    "disabled": false
-  },
-  {
-    "display_name": "AllMoviesHub",
-    "value": "allmovieshub",
-    "version": "1.0",
-    "icon": "",
-    "type": "global",
-    "hasSettings": false,
-    "disabled": false
-  },
-  {
-    "display_name": "UHDMovies",
-    "value": "uhdmovies",
-    "version": "1.0",
-    "icon": "",
-    "type": "global",
-    "hasSettings": false,
-    "disabled": false
-  },
-  {
-    "display_name": "MoviesMod",
-    "value": "moviesmod",
-    "version": "1.0",
-    "icon": "",
-    "type": "global",
-    "hasSettings": false,
-    "disabled": false
-  },
-  {
-    "display_name": "Movies4U",
-    "value": "movies4u",
-    "version": "1.0",
-    "icon": "",
-    "type": "global",
-    "hasSettings": false,
-    "disabled": false
-  },
-  {
-    "display_name": "VegaMovies",
-    "value": "vegamovies",
-    "version": "1.0",
-    "icon": "",
-    "type": "global",
-    "hasSettings": false,
-    "disabled": false
-  },
-  {
-    "display_name": "VegaMed",
-    "value": "vegamed",
-    "version": "1.0",
-    "icon": "",
-    "type": "global",
-    "hasSettings": false,
-    "disabled": false
-  },
-  {
-    "display_name": "EonMovies",
-    "value": "eonmovies",
-    "version": "1.0",
-    "icon": "",
-    "type": "global",
-    "hasSettings": false,
-    "disabled": false
-  },
-  {
-    "display_name": "MoviesDrive",
-    "value": "moviesdrive",
-    "version": "1.0",
-    "icon": "",
-    "type": "global",
-    "hasSettings": false,
-    "disabled": false
-  },
-  {
-    "display_name": "KMMovies",
-    "value": "kmmovies",
-    "version": "1.0",
-    "icon": "",
-    "type": "global",
-    "hasSettings": false,
-    "disabled": false
-  },
-  {
-    "display_name": "KatMovieHD",
-    "value": "katmoviehd",
-    "version": "1.0",
-    "icon": "",
-    "type": "global",
-    "hasSettings": false,
-    "disabled": false
-  },
-  {
-    "display_name": "GokuHD",
-    "value": "gokuhd",
-    "version": "1.0",
-    "icon": "",
-    "type": "global",
-    "hasSettings": false,
-    "disabled": false
+    "disabled": false,
+    "script": "https://raw.githubusercontent.com/Arthurrrr-source/vega-providers/main/providers/hdhub4u.js"
   }
 ]
